@@ -219,3 +219,28 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 50%;
   padding: 1.2rem;
 }
+
+.site-footer {
+  background-color: #6f4e37;
+  color: #ffebd4;
+  padding: 1.25rem 0;
+}
+
+.site-footer p {
+  margin-bottom: 0;
+}
+
+.social-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.social-links a {
+  color: #ffebd4;
+  font-size: 1.1rem;
+  transition: opacity 0.2s ease;
+}
+
+.social-links a:hover {
+  opacity: 0.8;
+}
