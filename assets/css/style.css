@@ -76,12 +76,26 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn-primary {
+  background-color: #6f4e37;
+  border-color: #6f4e37;
+  color: #ffebd4;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+  background-color: #5f3f2b;
+  border-color: #5f3f2b;
+  color: #ffebd4;
+}
+
+#hero-cta {
   background-color: #fff;
   border-color: #fff;
   color: #111;
 }
 
-.btn-primary:hover {
+#hero-cta:hover {
   background-color: #f2f2f2;
   border-color: #f2f2f2;
   color: #111;
